@@ -15,6 +15,6 @@ Este é um projeto simples de site criado com **HTML** e **CSS**. O objetivo des
 O principal objetivo deste projeto foi praticar a criação de um site responsivo e aprender a usar **Media Queries** para garantir que o site fosse adaptável a qualquer tipo de dispositivo, especialmente smartphones.
 
 ## GitHub 🔗
-Este projeto está disponível no meu GitHub: [Lukinhasc-dev](https://github.com/lukinhasc-dev)
-E acesse o site onde está hospedado para visualizá-lo: https://lukinhasc-dev.github.io/projeto-portfolio-responsivo/
+- Este projeto está disponível no meu GitHub: [Lukinhasc-dev](https://github.com/lukinhasc-dev)
+- E acesse o site onde está hospedado para visualizá-lo: https://lukinhasc-dev.github.io/projeto-portfolio-responsivo/
 
