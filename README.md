@@ -16,4 +16,5 @@ O principal objetivo deste projeto foi praticar a criação de um site responsiv
 
 ## GitHub 🔗
 Este projeto está disponível no meu GitHub: [Lukinhasc-dev](https://github.com/lukinhasc-dev)
+E acesse o site onde está hospedado para visualizá-lo: https://lukinhasc-dev.github.io/projeto-portfolio-responsivo/
 
