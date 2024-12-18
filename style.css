@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.nav {
+    background-color: #181818;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    position: sticky;
+    top: 0;
+    z-index: 9;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 28px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #ddd;
+    padding: 20px;
+    transition: color 0.3s;
+}
+
+.nav-list a:hover{
+    color: #fff;
+}
+
+.main {
+    width: 100%;
+    background-color: #000;
+    height: calc(100vh - 0px);
+    background-image: url("images/programador.png");
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+}
+
+.main h1 {
+    color: #ffffff;
+    font-size: 54px;
+}
+
+.main p {
+    font-size: 24px;
+    font-style: italic;
+    color: #1e96fc;
+    margin-top: 10PX;
+    margin-bottom: 35px;
+}
+
+.call-to-action {
+    cursor: pointer;
+    background-color: #fff;
+    border: 0;
+    padding: 14px;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.call-to-action:hover {
+    transform: scale(1.04);
+    color: #1e96fc;
+
+}
+
+.main a {
+    text-decoration: none;
+    color: #181818;
+}
+
+.about  {
+    background-color: #ffffff;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 200px;
+    padding-bottom: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about div {
+    max-width: 50%;
+    padding-right: 40px;
+}
+
+.about img {
+    max-width: 450px;
+    border-radius: 12px;
+}
+
+.about div h2 {
+    font-size: 32px;
+    margin-bottom: 14px;
+}
+
+.projects {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0;
+}
+
+.projects h2 {
+    font-size: 22px;
+    margin-bottom: 8px;
+    margin-top: 50px;
+}
+
+.projects p {
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.project-list {
+    width: 100%;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects img {
+    width: 22%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    margin-bottom: 0.5%;
+    border-radius: 12px;
+    opacity: 80%;
+    transition: 0.4s;
+}
+
+.projects img:hover {
+    opacity: 100%;
+    transform: scale(1.03);
+}
+
+
+.action {
+    background-color: #181818;
+    border: 0;
+    padding: 12px 28px;
+    border-radius: 4px;
+    font-size: 18px;
+    color: #ddd;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.action:hover {
+    transform: scale(1.04);
+    color: #ffffff;
+}
+
+footer {
+    width: 100%;
+    background-color: #181818;
+    padding: 35px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
+footer h3 {
+    font-size: 16px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer p {
+    margin-top: 3px;
+    font-size: 14px;
+}
+
+footer .redes-sociais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 20px;
+    gap: 11px;
+}
+
+footer i {
+    transition: 0.3s;
+}
+
+footer i:hover {
+    transform: scale(1.2);
+}
+
+/*Media Queries*/
+@media (max-width: 1100px) {
+
+    .nav {
+        justify-content: center;
+        padding-left: 7%;
+    }
+
+    .main h1 {
+        font-size: 35px;
+    }
+
+    .main p {
+        font-size: 16px;
+    }
+
+    .main {
+        background-size: cover;
+    }
+
+    .call-to-action {
+        width: 73%;
+        font-size: 16px;
+    }
+
+    .about {
+        flex-direction: column;
+        padding-top: 100px;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+    }
+
+    .about div {
+        max-width: 80%;
+    }
+
+    .about div h2 {
+        font-size: 35px;
+    }
+
+    .about img {
+        width: 80%;
+        margin-top: 30px;
+    }
+
+    .projects img {
+        width: 30%;
+    }
+
+    .projects h2 {
+        font-size: 35px;
+    }
+
+    .projects p {
+        font-size: 16px;
+    }
+
+    .action {
+        width: 70%;
+        font-size: 13px;
+    }
+
+    footer {
+        padding: 22px 0;
+        flex-direction: column;
+    }
+
+    footer h3 {
+        font-size: 15px;
+    }
+
+    footer p {
+        margin: 0;
+    }
+
+    footer i {
+        font-size: 21px;
+    }
+
+
+
+
+
+
+
+}
