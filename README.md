@@ -17,5 +17,3 @@ O principal objetivo deste projeto foi praticar a criação de um site responsiv
 ## GitHub 🔗
 Este projeto está disponível no meu GitHub: [Lukinhasc-dev](https://github.com/lukinhasc-dev)
 
-## Licença 📜
-Este projeto está licenciado sob a [MIT License](LICENSE).
